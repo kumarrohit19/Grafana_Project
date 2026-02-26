@@ -1,0 +1,53 @@
+
+version: "3.9"
+services:
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    dns:
+      - 192.168.1.140
+    dns_search:
+      - mylab.local
+
+  grafana:
+    image: grafana/grafana
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+    ports:
+      - "3000:3000"
+    dns:
+      - 192.168.1.140
+    dns_search:
+      - mylab.local
+
+telegraf:
+    image: telegraf:latest
+    volumes:
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    networks: ["monitoring"]
+    dns:
+      - 192.168.1.140
+    dns_search:
+      - mylab.local
+
+influxdb:
+    image: influxdb:latest
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-volume:/var/lib/influxdb
+    networks: ["monitoring"]
+    dns:
+      - 192.168.1.140
+    dns_search:
+      - mylab.local
+
+networks:
+  monitoring:
+
+volumes:
+  influxdb-volume:
