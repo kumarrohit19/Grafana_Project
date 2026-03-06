@@ -32,3 +32,25 @@ Configuring Grafana:
    8160 - For Linux VM
    16523 - For Windows Servers
    8162 - VMware
+
+Dashboard
+<img width="940" height="287" alt="image" src="https://github.com/user-attachments/assets/1328c9c7-ee3c-489a-9fa5-c5f5ed16eb8a" />
+
+VMware Dashboards
+<img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/d83e5f75-6312-44fa-aa63-62369ef2b512" />
+
+<img width="940" height="442" alt="image" src="https://github.com/user-attachments/assets/994a2f4c-c99f-405f-9056-c74d5a80510d" />
+
+Windows Server Dashboard
+Backup Server
+<img width="940" height="413" alt="image" src="https://github.com/user-attachments/assets/165c1a90-c6fe-413d-8af4-6427cbc34dfc" />
+
+Domain Controller
+<img width="940" height="361" alt="image" src="https://github.com/user-attachments/assets/ab93117e-57c0-461d-99b6-7e0478250f85" />
+
+Jump Server
+<img width="940" height="449" alt="image" src="https://github.com/user-attachments/assets/6e8e3a7d-bf26-44be-9ad9-fa7620128176" />
+
+Linux Server
+<img width="940" height="406" alt="image" src="https://github.com/user-attachments/assets/170ac74c-b85c-4fd0-9c70-86e239306adf" />
+
