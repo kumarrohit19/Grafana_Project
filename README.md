@@ -33,6 +33,9 @@ Configuring Grafana:
    16523 - For Windows Servers
    8162 - VMware
 
+For Windows and Linux Vm we need to Install exporters for collecting metrics which can be reflected in grafana
+Exporters can be found under exporter folder.
+
 Dashboard
 <img width="940" height="287" alt="image" src="https://github.com/user-attachments/assets/1328c9c7-ee3c-489a-9fa5-c5f5ed16eb8a" />
 
