@@ -33,7 +33,7 @@ Configuring Grafana:
    16523 - For Windows Servers
    8162 - VMware
 
-For Windows and Linux Vm we need to Install exporters for collecting metrics which can be reflected in grafana
+For Windows and Linux Vm we need to Install prometheus-exporters for collecting metrics which can be reflected in grafana
 Exporters can be found under exporter folder.
 
 Dashboard
